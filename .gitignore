@@ -184,6 +184,7 @@ system/
 !system/
 
 # NuGet Packages
+packages/
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg

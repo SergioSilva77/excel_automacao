@@ -1,0 +1,23 @@
+bom, é um projeto net framework, console, e ja tem o closedxml instalado e newtosoft.json.
+
+quero criar uma api de argumentos que é tudo para excel
+
+1.ler
+2. editar
+3. chamar macro da lib closedxml
+4. aplicar formulas.
+5. obter um range de valores.
+6. se quer ler end to end em uma coluna ou linha
+7. se quer ler end to end um range por exemplo A:D entao vou ler end to end 4 colunas
+8. retorno em json
+9. aplicar filtros
+10. listar todas tabelas
+11. caminho da planilha
+
+entao vou chamar app.exe <read> <type_return:json,xml>, etc...
+app.exe <write> <cell|range> <value> <is_formula>
+app.exe <call_macro> <name>
+
+
+---
+ler todos workbooks
